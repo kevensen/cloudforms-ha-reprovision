@@ -6,7 +6,7 @@ This automate code…
 1. Detects a host failure event
 2. Determines what VM's were on that host
 3. Determines from what template those VM's were cloned
-4. If that VM is tagged with ha_policy, provision a VM from that template with the origional VM name + \"_ha\"
+4. If that VM is tagged with ha_policy, provision a VM from that template with the origional VM name + "_ha"
 
 ###Obtain Automate Code
 1. Clone repository
@@ -22,3 +22,5 @@ This automate code…
 7. Navigate to “Automate” —> “Explorer”
 8. Ensure the POC domain is enabled
 9. Navigate to “Automate” —> “Customization” and the “Buttons” accordionan on the left
+10. Add a tag "ha_policy/reprovision"
+11. Tag the base template you wish to reprovision
