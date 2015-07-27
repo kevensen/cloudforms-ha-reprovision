@@ -21,6 +21,5 @@ This automate code…
 6. Upload the archive
 7. Navigate to “Automate” —> “Explorer”
 8. Ensure the POC domain is enabled
-9. Navigate to “Automate” —> “Customization” and the “Buttons” accordionan on the left
-10. Add a tag "ha_policy/reprovision"
-11. Tag the base template you wish to reprovision
+9. Add a tag "ha_policy/reprovision"
+10. Tag the base template you wish to reprovision
